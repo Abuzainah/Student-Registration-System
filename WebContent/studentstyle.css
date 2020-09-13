@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(lukeback.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+.box{
+    width:300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgb(236, 230, 230);
+    text-align: center;
+}
+.box input{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color:black;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+}
+.txt{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+	top:90%;
+	left:50%
+	}
+	
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(lukeback.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    padding: 6px 13px ;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: black;
+    border-radius:2px ;
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width:800px;
+    text-align: center;
+}
+
